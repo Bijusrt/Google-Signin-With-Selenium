@@ -1,5 +1,5 @@
 from selenium import webdriver
-browser,password,userName= webdriver.Chrome("/home/kirithiv/Downloads/chromedriver"),'email','password'
+browser,password,userName= webdriver.Chrome("chromedriver_linux64/chromedriver"),'email','password'
 browser.maximize_window()
 browser.get("https://www.facebook.com/")
 a=browser.find_element_by_xpath('//*[@id="email"]')
